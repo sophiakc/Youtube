@@ -2,7 +2,7 @@
 //  MenuViewController.swift
 //  Youtube
 //
-//  Created by Sophia KC on 01/11/2016.
+//  Created by Sophia KC on 06/11/2016.
 //  Copyright © 2016 Sophia KC. All rights reserved.
 //
 
@@ -13,14 +13,7 @@ class MenuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
     }
-    
-//    func displayContentController(content: UIViewController) {
-//        addChildViewController(ViewController)
-//        self.view.addSubview(ViewController.view)
-//        ViewController.didMove(toParentViewController: self)
-//    }
 
-    
+
 }

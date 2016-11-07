@@ -11,7 +11,7 @@ By the end of this week, you should be able to implement custom navigation that 
 
 Submitted by: [Sophia Kecir Camper](https://github.com/sophiakc)
 
-Total time spent: **** cumulated hours
+Total time spent: **5** cumulated hours
 
 ## Required User Stories
 1. Setup:
@@ -21,16 +21,16 @@ Total time spent: **** cumulated hours
 	* [X] Create view controllers for the MenuViewController and the FeedViewController
 3. HamburgerViewController
 	* [X] Create a view controller for the HamburgerViewController
-	* [ ] In the Storyboard, add a view that will contain the menu and a view that will contain the feed. Create outlets for both these views.
-	* [ ] Declare two properties for a MenuViewController and a FeedViewController (same place you put the outlets)
+	* [X] In the Storyboard, add a view that will contain the menu and a view that will contain the feed. Create outlets for both these views.
+	* [X] Declare two properties for a MenuViewController and a FeedViewController (same place you put the outlets)
 		var menuViewController: UIViewController!
-	var feedViewController: UIViewController!
-	* [ ] In viewDidLoad,
-		* [ ] programmatically create new view controller copies of the menu and the feed view controllers
-		* [ ] Add the view controllers the menu view and the feed view, respectively. Adding Child View Controllers. NOTE: The example in the guide wraps the code in a function for ease of reuse, however you can also just implement the code from the body of the function in the viewDidLoad()
+		var feedViewController: UIViewController!
+	* [X] In viewDidLoad,
+		* [X] programmatically create new view controller copies of the menu and the feed view controllers
+		* [X] Add the view controllers to the menu view and the feed view, respectively. Adding Child View Controllers. NOTE: The example in the guide wraps the code in a function for ease of reuse, however you can also just implement the code from the body of the function in the viewDidLoad()
 4. Draggable Feed
-	* [ ] Add a pan gesture recognizer to the view that contains the feed to reveal the MenuViewController.
-	* [ ] Upon gesture ended, use the velocity to determine if the menu should be fully revealed or hidden.
+	* [X] Add a pan gesture recognizer to the view that contains the feed to reveal the MenuViewController.
+	* [X] Upon gesture ended, use the velocity to determine if the menu should be fully revealed or hidden.
 
 ## Optional User Stories: Bonus
 5. Bonus: Menu scaling

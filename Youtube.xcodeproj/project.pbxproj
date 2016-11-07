@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E8325B71DD0336A00D042DC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8325B61DD0336A00D042DC /* MenuViewController.swift */; };
 		7ED77A931DC88310000A9934 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED77A921DC88310000A9934 /* AppDelegate.swift */; };
-		7ED77A951DC88310000A9934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED77A941DC88310000A9934 /* ViewController.swift */; };
 		7ED77A981DC88310000A9934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED77A961DC88310000A9934 /* Main.storyboard */; };
 		7ED77A9A1DC88310000A9934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED77A991DC88310000A9934 /* Assets.xcassets */; };
 		7ED77A9D1DC88310000A9934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED77A9B1DC88310000A9934 /* LaunchScreen.storyboard */; };
 		7ED77AA81DC88311000A9934 /* YoutubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED77AA71DC88311000A9934 /* YoutubeTests.swift */; };
 		7ED77AB31DC88311000A9934 /* YoutubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED77AB21DC88311000A9934 /* YoutubeUITests.swift */; };
-		7ED77AC21DC88422000A9934 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED77AC11DC88422000A9934 /* MenuViewController.swift */; };
 		7ED77AC41DC8842C000A9934 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED77AC31DC8842C000A9934 /* FeedViewController.swift */; };
 		7ED77AC61DC88440000A9934 /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED77AC51DC88440000A9934 /* HamburgerViewController.swift */; };
 /* End PBXBuildFile section */
@@ -37,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E8325B61DD0336A00D042DC /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		7ED77A8F1DC88310000A9934 /* Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youtube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED77A921DC88310000A9934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7ED77A941DC88310000A9934 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7ED77A971DC88310000A9934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7ED77A991DC88310000A9934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ED77A9C1DC88310000A9934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,7 +49,6 @@
 		7ED77AAE1DC88311000A9934 /* YoutubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoutubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED77AB21DC88311000A9934 /* YoutubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeUITests.swift; sourceTree = "<group>"; };
 		7ED77AB41DC88311000A9934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7ED77AC11DC88422000A9934 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		7ED77AC31DC8842C000A9934 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		7ED77AC51DC88440000A9934 /* HamburgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +103,6 @@
 			children = (
 				7ED77AC01DC88411000A9934 /* ViewControllers */,
 				7ED77A921DC88310000A9934 /* AppDelegate.swift */,
-				7ED77A941DC88310000A9934 /* ViewController.swift */,
 				7ED77A961DC88310000A9934 /* Main.storyboard */,
 				7ED77A991DC88310000A9934 /* Assets.xcassets */,
 				7ED77A9B1DC88310000A9934 /* LaunchScreen.storyboard */,
@@ -135,9 +132,9 @@
 		7ED77AC01DC88411000A9934 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				7ED77AC11DC88422000A9934 /* MenuViewController.swift */,
 				7ED77AC31DC8842C000A9934 /* FeedViewController.swift */,
 				7ED77AC51DC88440000A9934 /* HamburgerViewController.swift */,
+				7E8325B61DD0336A00D042DC /* MenuViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -276,11 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ED77A951DC88310000A9934 /* ViewController.swift in Sources */,
-				7ED77AC21DC88422000A9934 /* MenuViewController.swift in Sources */,
 				7ED77AC41DC8842C000A9934 /* FeedViewController.swift in Sources */,
 				7ED77AC61DC88440000A9934 /* HamburgerViewController.swift in Sources */,
 				7ED77A931DC88310000A9934 /* AppDelegate.swift in Sources */,
+				7E8325B71DD0336A00D042DC /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +519,7 @@
 				7ED77AB91DC88311000A9934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ED77ABA1DC88311000A9934 /* Build configuration list for PBXNativeTarget "YoutubeTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +528,7 @@
 				7ED77ABC1DC88311000A9934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ED77ABD1DC88311000A9934 /* Build configuration list for PBXNativeTarget "YoutubeUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +537,7 @@
 				7ED77ABF1DC88311000A9934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
